@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script> 
+    <title>Decodificador</title>
+</head>
+<body>
+  <header class="letra__alura">
+    <img  src="./assets/Logo Alura.png" alt="logotipo Alura">
+  </header>
+  <main class="conteudo">
+    <section class="decod">
+      <div>
+        <textarea class="texto" rows="10" cols="50" placeholder="Digite ou cole aqui o seu texto"></textarea>
+      <div>
+      <div class="alerta">
+        <img src="./assets/exclamacao.png" alt="sinal de exclamação">
+        <h1>Apenas letras minúsculas sem acento</h1>
+      </div>
+      <div class="botao">
+        <button class="botao__criptografar" onclick="botaoEncriptar()">Criptografar</button>
+        <button class="botao__descriptografar" onclick="botaoDescriptar()">Descriptografar</button>
+      </div>
+    </section>
+    <section class="imagem__e__resultado">
+        <img class="imagem__lupa" src="./assets/Imagem Lupa.png" alt="imagem de pessoa com lupa">
+        <textarea class="resultado" rows="8" cols="20" placeholder="Nenhuma resultado encontrada"></textarea>
+        <button onclick="" class="resultado__para__copiar">Copiar</button>
+    </section>
+  </main>
+  <footer>
+    <p class="rodape">Desenvolvido por Rogério Luiz / Email: rlzsantos1@gmail.com</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body {
+    background-color: aquamarine;
+    box-sizing: border-box;
+
+}
+
+.letra__alura {
+    padding: 1% 0 0 3%;
+    }
+
+.conteudo {
+    display: flex;
+    margin: 1% 5% 0,5% 3%;
+    gap: 220px;    
+}
+
+.decod {
+    display:flex;
+    flex-direction: column;
+    margin-left: 18%;
+      
+}
+
+.texto {
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 24px;
+}
+
+.alerta {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 6px;
+    padding: 30% 0 0 0;
+}
+
+.botao {
+display:flex;
+justify-content:space-between;
+}
+
+ .botao__criptografar {
+    background-color:#0a3871;
+    color: white;
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+       }
+
+.botao__descriptografar {
+    background-color:white;
+    color: #0a3871;
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+}
+
+.imagem__e__resultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 220px;
+    height: 500px;
+    gap: 30px;
+    background-color: rgb(124, 111, 95);
+    border-radius: 2%;
+}
+
+.resultado {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    z-index:auto;
+ }
+
+.resultado__para__copiar {
+    background-color:white;
+    color: #0a3871;
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size: 14px;
+    width: 120px;
+    height: 35px;
+    border-radius: 12px;
+        }
+
+.rodape {
+    background-color: rgb(124, 111, 95);
+    color: white;
+    text-align: center;
+    padding: 1%;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+ 
+}
